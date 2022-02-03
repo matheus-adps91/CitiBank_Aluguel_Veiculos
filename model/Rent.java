@@ -44,4 +44,5 @@ public class Rent
     {
         return "Rent [quantity=" + quantity + ", days=" + days + ", car=" + car + ", carCategory=" + carCategory + "]";
     }
+    
 }

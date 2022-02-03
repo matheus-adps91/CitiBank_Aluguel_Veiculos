@@ -15,7 +15,7 @@ public final class TableRentDataBase
 {
     public final static Map<CarCategory,List<Car>> loadDatabase() 
     {
-        List<Car> premiumCars = Arrays.asList( new Car( Vehicle.MUSTANG ), new Car(Vehicle.CAYENNE ) );
+        final List<Car> premiumCars = Arrays.asList( new Car( Vehicle.MUSTANG ), new Car(Vehicle.CAYENNE ) );
         List<Car> executiveCars = Arrays.asList( new Car(Vehicle.HILUX), new Car(Vehicle.TRAILBLAZER ) );
         List<Car> basicCars = Arrays.asList( new Car( Vehicle.UNO ), new Car( Vehicle.GOL ) );
         List<Car> intermediumCars = Arrays.asList( new Car( Vehicle.DUSTER ), new Car(Vehicle.RENEGADE ) );

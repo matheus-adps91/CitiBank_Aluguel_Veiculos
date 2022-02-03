@@ -56,5 +56,4 @@ public class Client
         return "Client [id=" + id + ", name=" + name + ", age=" + age + ", Total= " + rentSum + "]\n"+
             "Rents "+rents ;
     }
-    
 }

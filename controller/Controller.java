@@ -17,8 +17,8 @@ public class Controller
 {          
     public static void run() 
     {
-        Map<CarCategory, List<Car>> tableRentDataBase = TableRentDataBase.loadDatabase();
-        Map<String, Client> clientDataBase = new HashMap<>();
+        final Map<CarCategory, List<Car>> tableRentDataBase = TableRentDataBase.loadDatabase();
+        final Map<String, Client> clientDataBase = new HashMap<>();
         boolean repeat = true;
         do {
             Printer.printWelcomeMessage();

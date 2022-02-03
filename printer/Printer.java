@@ -37,7 +37,7 @@ public class Printer
 
     public static void printLine()
     {
-        System.out.println( "------------------------------------------------------" );
+        System.out.println( "---------------------------------------------------------" );
     }
 
     public static void clientMessage(

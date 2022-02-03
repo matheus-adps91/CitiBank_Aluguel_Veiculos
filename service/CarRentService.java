@@ -114,4 +114,5 @@ public class CarRentService
     {
         return rent.getQuantity() * rent.getDays() * rent.getCar().getDairy();
     }
+    
 }

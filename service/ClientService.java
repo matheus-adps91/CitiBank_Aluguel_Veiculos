@@ -74,4 +74,5 @@ public class ClientService
         }
         throw new ClientNotFoundException( id );
     }
+    
 }

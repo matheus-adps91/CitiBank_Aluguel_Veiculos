@@ -7,7 +7,7 @@ public class CarCategoryNotFoundException
     private static final long serialVersionUID = - 8969913623648438993L;
     
     public CarCategoryNotFoundException(
-        final String category )
+        final String category)
     {
         super("A categoria "+ category +" não foi encontrada");
     }
